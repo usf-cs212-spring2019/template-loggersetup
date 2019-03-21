@@ -27,11 +27,11 @@ Log `ALL` log levels to a `debug.log` file. See the `test/debug.log` file for th
 [3 IN] LoggerSetup.main main: ibis 
 [4 WA] LoggerSetup.main main: wren 
 [5 ER] LoggerSetup.main main: egret java.lang.Exception: urk
-    at LoggerSetup.main(LoggerSetup.java:13)
-    at LoggerSetupTest.setup(LoggerSetupTest.java:42)
+	at LoggerSetup.main(LoggerSetup.java:24)
+	at LoggerSetupTest.setup(LoggerSetupTest.java:42)
 [6 FA] LoggerSetup.main main: finch java.lang.Exception: ack
-    at LoggerSetup.main(LoggerSetup.java:14)
-    at LoggerSetupTest.setup(LoggerSetupTest.java:42)
+	at LoggerSetup.main(LoggerSetup.java:25)
+	at LoggerSetupTest.setup(LoggerSetupTest.java:42)
 ```
 
 The file output includes the log sequence number, two letters from the log level, class name, method name, thread name, log message, and 3 lines from the stack trace if appropriate, all followed by a newline. 
